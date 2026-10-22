@@ -1,0 +1,51 @@
+name: Publish English Review Cards
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'English_Learning_Database.json'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Validate deck data
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('English_Learning_Database.json').read_text(encoding='utf-8'))
+          assert d['schema_version']==1 and d['deck_id']=='mark-english-master'
+          assert len(d['entries'])>0
+          ids=[e['id'] for e in d['entries']]
+          assert len(ids)==len(set(ids))
+          print(f"Validated {len(ids)} review cards")
+          PY
+      - name: Prepare static site
+        run: |
+          mkdir -p _site
+          cp index.html English_Learning_Database.json _site/
+          touch _site/.nojekyll
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload website artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
