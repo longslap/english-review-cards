@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "deck_id": "mark-english-master",
-  "revision": 1,
-  "updated_at": "2026-10-19T07:32:52+08:00",
+  "revision": 2,
+  "updated_at": "2026-10-22T01:39:56.727Z",
   "timezone": "Asia/Shanghai",
   "coverage": {
     "requested_start": "2026-10-08",
@@ -997,7 +997,8 @@
         {
           "source_id": "html-1018",
           "record_id": 28,
-          "original_scene": "机场",          "original_kind": "句子",
+          "original_scene": "机场",
+          "original_kind": "句子",
           "original_date": ""
         },
         {
@@ -1996,7 +1997,8 @@
       "zh": "租约什么时候开始？",
       "scene": "租房",
       "kind": "句子",
-      "notes": "练习过",      "practice_dates": [],
+      "notes": "练习过",
+      "practice_dates": [],
       "source_claimed_dates": [
         "2026-10-12"
       ],
@@ -2995,7 +2997,8 @@
         }
       ],
       "created_at": "2026-10-19T07:32:52+08:00",
-      "updated_at": "2026-10-19T07:32:52+08:00",      "revision": 1,
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
       "status": "active"
     },
     {
@@ -3677,6 +3680,22 @@
       "updated_at": "2026-10-19T07:32:52+08:00",
       "revision": 1,
       "status": "active"
+    },
+    {
+      "id": "sync_test_20261022",
+      "en": "This is a temporary synchronization test.",
+      "zh": "这是一条临时的数据同步测试句子。",
+      "scene": "日常沟通",
+      "kind": "句子",
+      "notes": "临时测试；验证后删除。",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [],
+      "created_at": "2026-10-22T01:39:56.727Z",
+      "updated_at": "2026-10-22T01:39:56.727Z",
+      "revision": 1,
+      "status": "active"
     }
   ],
   "events": [
@@ -3684,6 +3703,11 @@
       "type": "initial_import",
       "at": "2026-10-19T07:32:52+08:00",
       "detail": "合并97条CSV、107条HTML及6条历史口语变体，保留来源。"
+    },
+    {
+      "type": "sync_test_added",
+      "at": "2026-10-22T01:39:56.727Z",
+      "detail": "Temporary test card; remove after cross-device verification."
     }
   ]
 }
