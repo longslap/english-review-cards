@@ -24,17 +24,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
       - name: Validate deck data
-        run: |
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          d=json.loads(Path('English_Learning_Database.json').read_text(encoding='utf-8'))
-          assert d['schema_version']==1 and d['deck_id']=='mark-english-master'
-          assert len(d['entries'])>0
-          ids=[e['id'] for e in d['entries']]
-          assert len(ids)==len(set(ids))
-          print(f"Validated {len(ids)} review cards")
-          PY
+        run: python3 tools/validate_deck.py
       - name: Prepare static site
         run: |
           mkdir -p _site
