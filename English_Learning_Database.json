@@ -1,0 +1,3689 @@
+{
+  "schema_version": 1,
+  "deck_id": "mark-english-master",
+  "revision": 1,
+  "updated_at": "2026-10-19T07:32:52+08:00",
+  "timezone": "Asia/Shanghai",
+  "coverage": {
+    "requested_start": "2026-10-08",
+    "requested_end": "2026-10-18",
+    "complete_transcript_access": false,
+    "note": "已完整合并找到的97条CSV与107条HTML；历史对话仅检索片段，不能保证所有历史学习内容已穷尽。"
+  },
+  "sources": [
+    {
+      "id": "html-1018",
+      "type": "file",
+      "title": "English_Review_2026-10-18.html",
+      "library_file_id": "libfile_41fc3b7f89ec8191abef7eb80813e7a7"
+    },
+    {
+      "id": "csv-v1",
+      "type": "file",
+      "title": "English_Master_Deck_v1.0.csv",
+      "library_file_id": "libfile_4c002f2da00c81919ed93b44882360d4"
+    },
+    {
+      "id": "rental-original",
+      "type": "file",
+      "title": "租房英语复习卡_优化版.html",
+      "library_file_id": "libfile_8c6582fe7f10819186ef5b055b312573"
+    },
+    {
+      "id": "chat-2026-10-08",
+      "type": "retrieved_excerpt",
+      "local_date": "2026-10-08",
+      "title": "English learning warmup / 练习摘要",
+      "limitation": "只获得检索摘要/片段，不是完整会话导出"
+    },
+    {
+      "id": "chat-2026-10-12",
+      "type": "retrieved_excerpt",
+      "local_date": "2026-10-12",
+      "title": "租房及证件练习（UTC 10月11日23时，按北京时间归10月12日）",
+      "limitation": "只获得检索摘要/片段，不是完整会话导出"
+    },
+    {
+      "id": "chat-2026-10-15",
+      "type": "retrieved_excerpt",
+      "local_date": "2026-10-15",
+      "title": "Continue English Learning",
+      "limitation": "只获得检索摘要/片段，不是完整会话导出"
+    },
+    {
+      "id": "chat-2026-10-18",
+      "type": "retrieved_excerpt",
+      "local_date": "2026-10-18",
+      "title": "继续口语学习",
+      "limitation": "只获得检索摘要/片段，不是完整会话导出"
+    }
+  ],
+  "entries": [
+    {
+      "id": "en_c66fc9c493a3d092",
+      "en": "Could you say that again, please?",
+      "zh": "您能再说一遍吗？",
+      "scene": "日常沟通",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 0,
+          "original_scene": "日常沟通",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 0,
+          "original_scene": "日常沟通",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_423d67740329b93c",
+      "en": "Sorry, I didn't catch that.",
+      "zh": "抱歉，我刚才没听清。",
+      "scene": "日常沟通",
+      "kind": "句子",
+      "notes": "曾纠正 don't catch → didn't catch",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 1,
+          "original_scene": "日常沟通",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 1,
+          "original_scene": "日常沟通",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_b5f82a96c228dc1e",
+      "en": "Could you speak a bit more slowly?",
+      "zh": "您能说得稍微慢一点吗？",
+      "scene": "日常沟通",
+      "kind": "句子",
+      "notes": "曾纠正 more slower → more slowly",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 2,
+          "original_scene": "日常沟通",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 2,
+          "original_scene": "日常沟通",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_1e7c0c1eeddf5429",
+      "en": "Let me think for a second.",
+      "zh": "让我想一下。",
+      "scene": "日常沟通",
+      "kind": "句子",
+      "notes": "反复跟读；用户特别要求示范朗读",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 3,
+          "original_scene": "日常沟通",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 3,
+          "original_scene": "日常沟通",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_3a0ceda791b45ca9",
+      "en": "Sorry, could you say that again?",
+      "zh": "抱歉，能再说一遍吗？",
+      "scene": "日常沟通",
+      "kind": "句子",
+      "notes": "练习过",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 4,
+          "original_scene": "日常沟通",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 4,
+          "original_scene": "日常沟通",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_5824ab38ef4c506f",
+      "en": "Pardon?",
+      "zh": "什么？能再说一遍吗？",
+      "scene": "日常沟通",
+      "kind": "句子",
+      "notes": "练习过",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 5,
+          "original_scene": "日常沟通",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 5,
+          "original_scene": "日常沟通",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_41cf60e6ddff84a8",
+      "en": "Okay, thanks.",
+      "zh": "好的，谢谢。",
+      "scene": "日常沟通",
+      "kind": "句子",
+      "notes": "问路场景练习过",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 6,
+          "original_scene": "日常沟通",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 6,
+          "original_scene": "日常沟通",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_21d63267fca86cb8",
+      "en": "Okay, thank you.",
+      "zh": "好的，谢谢。",
+      "scene": "日常沟通",
+      "kind": "句子",
+      "notes": "购物场景练习过",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 7,
+          "original_scene": "日常沟通",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 7,
+          "original_scene": "日常沟通",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_07050b6cf9fcb0b3",
+      "en": "Okay, sounds good.",
+      "zh": "好的，听起来不错。",
+      "scene": "日常沟通",
+      "kind": "句子",
+      "notes": "租房场景练习过",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 8,
+          "original_scene": "日常沟通",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 8,
+          "original_scene": "日常沟通",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_60ca90574aae66f4",
+      "en": "Excuse me, how do I get to the railway station?",
+      "zh": "请问去火车站怎么走？",
+      "scene": "问路",
+      "kind": "句子",
+      "notes": "反复跟读",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 9,
+          "original_scene": "问路",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 9,
+          "original_scene": "问路",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_08c3848c6f85c126",
+      "en": "Excuse me, how do I get to the train station from here?",
+      "zh": "请问从这里怎么去火车站？",
+      "scene": "问路",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 10,
+          "original_scene": "问路",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 10,
+          "original_scene": "问路",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_2557912918193e5a",
+      "en": "Go straight two blocks, then turn left.",
+      "zh": "直走两个街区，然后左转。",
+      "scene": "问路",
+      "kind": "句子",
+      "notes": "曾把 left 说成 right；block 曾漏复数",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 11,
+          "original_scene": "问路",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 11,
+          "original_scene": "问路",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_a5e118c417fa2028",
+      "en": "two blocks",
+      "zh": "两个街区",
+      "scene": "问路",
+      "kind": "短语",
+      "notes": "曾纠正 block → blocks",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 12,
+          "original_scene": "问路",
+          "original_kind": "短语",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 12,
+          "original_scene": "问路",
+          "original_kind": "短语"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_b5c6b0758264c7b7",
+      "en": "Turn left.",
+      "zh": "左转。",
+      "scene": "问路",
+      "kind": "句子",
+      "notes": "反复跟读",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 13,
+          "original_scene": "问路",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 13,
+          "original_scene": "问路",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_534e163330169be1",
+      "en": "Turn right.",
+      "zh": "右转。",
+      "scene": "问路",
+      "kind": "句子",
+      "notes": "练习过",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 14,
+          "original_scene": "问路",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 14,
+          "original_scene": "问路",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_a770d5dfa50a2a2a",
+      "en": "Is it far?",
+      "zh": "远吗？",
+      "scene": "问路",
+      "kind": "句子",
+      "notes": "反复跟读",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 15,
+          "original_scene": "问路",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 15,
+          "original_scene": "问路",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_c9e4a8c71ef73b37",
+      "en": "Not really, about ten minutes on foot.",
+      "zh": "不太远，大约步行十分钟。",
+      "scene": "问路",
+      "kind": "句子",
+      "notes": "反复跟读",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 16,
+          "original_scene": "问路",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 16,
+          "original_scene": "问路",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_d3cae0997c0b8bdb",
+      "en": "How long does it take to get there?",
+      "zh": "到那里要多长时间？",
+      "scene": "问路",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 17,
+          "original_scene": "问路",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 17,
+          "original_scene": "问路",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_d7540adf03841ec1",
+      "en": "Could you show me on the map?",
+      "zh": "你能在地图上指给我看吗？",
+      "scene": "问路",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 18,
+          "original_scene": "问路",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 18,
+          "original_scene": "问路",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_291edd0fbcd6cd34",
+      "en": "Excuse me, how much is this?",
+      "zh": "请问这个多少钱？",
+      "scene": "购物",
+      "kind": "句子",
+      "notes": "练习过",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 19,
+          "original_scene": "购物",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 19,
+          "original_scene": "购物",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_74a361dd185143d5",
+      "en": "How much is it?",
+      "zh": "它多少钱？",
+      "scene": "购物",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 20,
+          "original_scene": "购物",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 20,
+          "original_scene": "购物",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_5356e68369b4a8f4",
+      "en": "It's twenty dollars.",
+      "zh": "二十美元。",
+      "scene": "购物",
+      "kind": "句子",
+      "notes": "练习过",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 21,
+          "original_scene": "购物",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 21,
+          "original_scene": "购物",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_0f8443dc504ba4bd",
+      "en": "I have a reservation.",
+      "zh": "我有预订。",
+      "scene": "酒店",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 22,
+          "original_scene": "酒店",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 22,
+          "original_scene": "酒店",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_2db76a1c7c2bcbe7",
+      "en": "I'd like to check in.",
+      "zh": "我想办理入住。",
+      "scene": "酒店",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 23,
+          "original_scene": "酒店",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 23,
+          "original_scene": "酒店",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_d4bbe9e845f599be",
+      "en": "Excuse me, where is my hotel?",
+      "zh": "请问我的酒店在哪里？",
+      "scene": "酒店",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 24,
+          "original_scene": "酒店",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 24,
+          "original_scene": "酒店",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_b3d1b28459d6ef75",
+      "en": "Could I have a late checkout?",
+      "zh": "我可以晚一点退房吗？",
+      "scene": "酒店",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 25,
+          "original_scene": "酒店",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 25,
+          "original_scene": "酒店",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_2d6f830fa8abaf0b",
+      "en": "Just to confirm, does the room rate include breakfast?",
+      "zh": "确认一下，房费包含早餐吗？",
+      "scene": "酒店",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 26,
+          "original_scene": "酒店",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 26,
+          "original_scene": "酒店",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_995bb8059a15c17b",
+      "en": "The air conditioning in my room isn't working.",
+      "zh": "我房间的空调坏了/不工作。",
+      "scene": "酒店",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 27,
+          "original_scene": "酒店",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 27,
+          "original_scene": "酒店",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_4d425720bfbbd616",
+      "en": "Excuse me, where is the baggage claim?",
+      "zh": "请问行李提取处在哪里？",
+      "scene": "机场",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 28,
+          "original_scene": "机场",          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 28,
+          "original_scene": "机场",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_24edb26c633596eb",
+      "en": "Which gate does this flight depart from?",
+      "zh": "这个航班从哪个登机口出发？",
+      "scene": "机场",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 29,
+          "original_scene": "机场",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 29,
+          "original_scene": "机场",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_6115b615babb1093",
+      "en": "Could you please help me with my luggage?",
+      "zh": "请问你能帮我拿行李吗？",
+      "scene": "机场",
+      "kind": "句子",
+      "notes": "luggage 曾重点跟读",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 30,
+          "original_scene": "机场",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 30,
+          "original_scene": "机场",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_f59e7a4ed324acd6",
+      "en": "luggage",
+      "zh": "行李",
+      "scene": "机场",
+      "kind": "单词",
+      "notes": "重点词汇",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 31,
+          "original_scene": "机场",
+          "original_kind": "单词",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 31,
+          "original_scene": "机场",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_3cf7fdfe5d9f9eb5",
+      "en": "I'm not sure what to order. What would you recommend?",
+      "zh": "我不确定点什么。你推荐什么？",
+      "scene": "餐厅",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 32,
+          "original_scene": "餐厅",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 32,
+          "original_scene": "餐厅",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_c6f179498c58b427",
+      "en": "What would you recommend?",
+      "zh": "你推荐什么？",
+      "scene": "餐厅",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 33,
+          "original_scene": "餐厅",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 33,
+          "original_scene": "餐厅",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_bf6ba911308f357d",
+      "en": "Do you have any vegetarian options?",
+      "zh": "你们有素食选项吗？",
+      "scene": "餐厅",
+      "kind": "句子",
+      "notes": "vegetarian 曾与 vegetable 区分",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 34,
+          "original_scene": "餐厅",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 34,
+          "original_scene": "餐厅",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_3119d1c433917dfe",
+      "en": "Could you make it a little less spicy?",
+      "zh": "可以做得稍微不那么辣吗？",
+      "scene": "餐厅",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 35,
+          "original_scene": "餐厅",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 35,
+          "original_scene": "餐厅",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_910a0d37f618db3a",
+      "en": "Could we have the bill, please?",
+      "zh": "请把账单给我们，好吗？",
+      "scene": "餐厅",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 36,
+          "original_scene": "餐厅",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 36,
+          "original_scene": "餐厅",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_f85e3fcbecf5fc57",
+      "en": "Sorry, just to check, does that make sense?",
+      "zh": "不好意思，确认一下，这样说得通吗？",
+      "scene": "日常沟通",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 37,
+          "original_scene": "餐厅",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 37,
+          "original_scene": "餐厅",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_28af4d7711a60323",
+      "en": "vegetarian",
+      "zh": "素食的；素食者",
+      "scene": "餐厅",
+      "kind": "单词",
+      "notes": "曾与 vegetable 区分",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 38,
+          "original_scene": "餐厅",
+          "original_kind": "单词",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 38,
+          "original_scene": "餐厅",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_4715b734085d8d9c",
+      "en": "vegetable",
+      "zh": "蔬菜",
+      "scene": "餐厅",
+      "kind": "单词",
+      "notes": "曾与 vegetarian 区分",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 39,
+          "original_scene": "餐厅",
+          "original_kind": "单词",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 39,
+          "original_scene": "餐厅",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_2c226a5758104284",
+      "en": "Where are you headed?",
+      "zh": "你要去哪里？",
+      "scene": "出租车",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 40,
+          "original_scene": "出租车",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 40,
+          "original_scene": "出租车",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_50213e15facdb342",
+      "en": "Just a moment, please.",
+      "zh": "请稍等。",
+      "scene": "出租车",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 41,
+          "original_scene": "出租车",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 41,
+          "original_scene": "出租车",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_eb6a2b9ed22aeb95",
+      "en": "Please take me to the nearest shopping center.",
+      "zh": "请带我去最近的购物中心。",
+      "scene": "出租车",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 42,
+          "original_scene": "出租车",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 42,
+          "original_scene": "出租车",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_7786d7da48f00de2",
+      "en": "Drop me at the main entrance, please.",
+      "zh": "请在主入口让我下车。",
+      "scene": "出租车",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 43,
+          "original_scene": "出租车",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 43,
+          "original_scene": "出租车",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_59d023d0a2aeb573",
+      "en": "Stop here, please.",
+      "zh": "请在这里停车。",
+      "scene": "出租车",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 44,
+          "original_scene": "出租车",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 44,
+          "original_scene": "出租车",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_609a5d7338069067",
+      "en": "Thanks for the ride. Have a good day.",
+      "zh": "谢谢你载我，祝你今天愉快。",
+      "scene": "出租车",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 45,
+          "original_scene": "出租车",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 45,
+          "original_scene": "出租车",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_84991c925e408f54",
+      "en": "Where can I get a taxi to the hotel?",
+      "zh": "我在哪里可以打车去酒店？",
+      "scene": "出租车",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 46,
+          "original_scene": "出租车",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 46,
+          "original_scene": "出租车",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_9245e88f5d5472f2",
+      "en": "Hi, I'm calling about the apartment you listed.",
+      "zh": "你好，我打电话是想咨询你发布的公寓。",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "重点句；反复练习",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 47,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 47,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_8611b643e340fa99",
+      "en": "Is it still available?",
+      "zh": "现在还可以租吗？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "重点句；反复练习",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 48,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 48,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_fe0b57d632e635f8",
+      "en": "What's the monthly rent?",
+      "zh": "每月租金多少钱？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "重点句；反复练习",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 49,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 49,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_37ee48a5cfd58ce2",
+      "en": "Are utilities included?",
+      "zh": "水电等杂费包含在内吗？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "utilities/included 曾反复练习",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 50,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 50,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_6802bfcc5332e83e",
+      "en": "Is it furnished?",
+      "zh": "配家具吗？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "重点句",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 51,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 51,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_6d9adcd20380b322",
+      "en": "Could we schedule a viewing?",
+      "zh": "我们可以预约看房吗？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "viewing 曾反复拆读跟读",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 52,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 52,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_e103ba9932706b05",
+      "en": "Saturday works for me. What time works for you?",
+      "zh": "周六对我来说可以。什么时间对你合适？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 53,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 53,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_b798734d08559425",
+      "en": "Great, I'll see you then. Thank you!",
+      "zh": "好的，那到时见，谢谢！",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 54,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 54,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_b9582b4e1adfb3a1",
+      "en": "The apartment seems nice.",
+      "zh": "这套公寓看起来不错。",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [
+        "2026-10-12"
+      ],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 55,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 55,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "rental-original",
+          "note": "六组租房卡片中的整句、分句或提示变体"
+        },
+        {
+          "source_id": "chat-2026-10-12",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_2d645f61246839bc",
+      "en": "Could you tell me more about it?",
+      "zh": "您能再详细介绍一下吗？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 56,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 56,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "rental-original",
+          "note": "六组租房卡片中的整句、分句或提示变体"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_d207e7e7587a3708",
+      "en": "How much is the deposit?",
+      "zh": "押金是多少？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [
+        "2026-10-12"
+      ],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 57,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 57,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "rental-original",
+          "note": "六组租房卡片中的整句、分句或提示变体"
+        },
+        {
+          "source_id": "chat-2026-10-12",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_068142aa6575d4ea",
+      "en": "How long is the lease?",
+      "zh": "租期有多长？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [
+        "2026-10-12"
+      ],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 58,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 58,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "rental-original",
+          "note": "六组租房卡片中的整句、分句或提示变体"
+        },
+        {
+          "source_id": "chat-2026-10-12",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_9fbe957af4fa2721",
+      "en": "When would the lease start?",
+      "zh": "租约什么时候开始？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "练习过",      "practice_dates": [],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 59,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 59,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "rental-original",
+          "note": "六组租房卡片中的整句、分句或提示变体"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_50aade981c18fd87",
+      "en": "When will the lease start?",
+      "zh": "租约什么时候开始？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "练习过；曾与 would 交替练习",
+      "practice_dates": [
+        "2026-10-12"
+      ],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 60,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 60,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "rental-original",
+          "note": "六组租房卡片中的整句、分句或提示变体"
+        },
+        {
+          "source_id": "chat-2026-10-12",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_83d6ae10be64d257",
+      "en": "When is the earliest move-in date?",
+      "zh": "最早什么时候可以入住？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "曾纠正 moving date → move-in date",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 61,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 61,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_185778d1ac25cea8",
+      "en": "Would next Monday work?",
+      "zh": "下周一可以吗？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 62,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 62,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_4b38b96a811195ee",
+      "en": "What documents do I need to apply?",
+      "zh": "申请租房需要什么材料？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "documents 复数曾强调",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 63,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 63,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_188efad92678acaa",
+      "en": "Is there an application fee?",
+      "zh": "需要支付申请费吗？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 64,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 64,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_51e6900bc41a84aa",
+      "en": "What's the next step?",
+      "zh": "下一步是什么？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [
+        "2026-10-12"
+      ],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 65,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 65,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "rental-original",
+          "note": "六组租房卡片中的整句、分句或提示变体"
+        },
+        {
+          "source_id": "chat-2026-10-12",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_3ab426cb2305346a",
+      "en": "The next step is filling out an application.",
+      "zh": "下一步是填写申请表。",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "情景对话练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 66,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 66,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_507314b5e1b8c073",
+      "en": "What do you need from me?",
+      "zh": "您需要我提供什么？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 67,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 67,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_fb61d756fe4bfef1",
+      "en": "Okay, sounds good. What do you need from me?",
+      "zh": "好的，听起来不错。您需要我提供什么？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "反复练习",
+      "practice_dates": [
+        "2026-10-12"
+      ],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 68,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 68,
+          "original_scene": "租房",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "rental-original",
+          "note": "六组租房卡片中的整句、分句或提示变体"
+        },
+        {
+          "source_id": "chat-2026-10-12",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_a42c965f46efa8c0",
+      "en": "Excuse me, could you show me your ID, please?",
+      "zh": "打扰一下，能出示您的身份证件吗？",
+      "scene": "证件",
+      "kind": "句子",
+      "notes": "反复跟读",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 69,
+          "original_scene": "证件",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 69,
+          "original_scene": "证件",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_af9a1aa5626e18fd",
+      "en": "Sure, here you go.",
+      "zh": "当然，给您。",
+      "scene": "证件",
+      "kind": "句子",
+      "notes": "反复跟读",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 70,
+          "original_scene": "证件",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 70,
+          "original_scene": "证件",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_e0a72dcddfcf7ace",
+      "en": "Thanks, I just needed to check.",
+      "zh": "谢谢，我刚才只是需要核实一下。",
+      "scene": "证件",
+      "kind": "句子",
+      "notes": "曾纠正 need → needed",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 71,
+          "original_scene": "证件",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 71,
+          "original_scene": "证件",
+          "original_kind": "句子"
+        },
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_c345133bfe0c4ae2",
+      "en": "I just need to check.",
+      "zh": "我现在只是需要核实一下。",
+      "scene": "证件",
+      "kind": "句子",
+      "notes": "与 needed 区分",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 72,
+          "original_scene": "证件",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 72,
+          "original_scene": "证件",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_6f5fac01587b131d",
+      "en": "Let me double-check and get back to you.",
+      "zh": "让我再确认一下，然后回复你。",
+      "scene": "工作沟通",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 73,
+          "original_scene": "工作沟通",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 73,
+          "original_scene": "工作沟通",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_b3e64396d15f6c5f",
+      "en": "Could you walk me through this?",
+      "zh": "你能带我一步一步过一下这个吗？",
+      "scene": "工作沟通",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 74,
+          "original_scene": "工作沟通",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 74,
+          "original_scene": "工作沟通",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_d4ce42337f2678f2",
+      "en": "I'm looking for an app that I can practice speaking with every day.",
+      "zh": "我在找一个可以每天练习口语的应用。",
+      "scene": "工作学习",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 75,
+          "original_scene": "工作/学习",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 75,
+          "original_scene": "工作/学习",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_83a87ebf9e1406b0",
+      "en": "I mainly use ChatGPT to practice my spoken English.",
+      "zh": "我主要用 ChatGPT 练习英语口语。",
+      "scene": "工作学习",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 76,
+          "original_scene": "工作/学习",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 76,
+          "original_scene": "工作/学习",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_5c21d5803a1d80d0",
+      "en": "My name is Mark.",
+      "zh": "我的名字是 Mark。",
+      "scene": "自我介绍",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 77,
+          "original_scene": "自我介绍",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 77,
+          "original_scene": "自我介绍",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_2bf47947e4449335",
+      "en": "I'm a university student in Shanghai, studying electronic engineering.",
+      "zh": "我是上海的一名大学生，学习电子工程。",
+      "scene": "自我介绍",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 78,
+          "original_scene": "自我介绍",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 78,
+          "original_scene": "自我介绍",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_6f8d3534bf045115",
+      "en": "I also tutor part-time to earn some extra money.",
+      "zh": "我还兼职辅导，以赚取一些额外收入。",
+      "scene": "自我介绍",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 79,
+          "original_scene": "自我介绍",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 79,
+          "original_scene": "自我介绍",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_3fd2156df26c5f73",
+      "en": "I enjoy the freedom to manage my own time.",
+      "zh": "我喜欢自由安排自己的时间。",
+      "scene": "自我介绍",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 80,
+          "original_scene": "自我介绍",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 80,
+          "original_scene": "自我介绍",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_3ae530ebd09ba447",
+      "en": "Most days, after classes, I can focus on my hobbies for a while.",
+      "zh": "大多数时候，下课后我可以专注于自己的兴趣一段时间。",
+      "scene": "自我介绍",
+      "kind": "句子",
+      "notes": "历史练习",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 81,
+          "original_scene": "自我介绍",
+          "original_kind": "句子",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 81,
+          "original_scene": "自我介绍",
+          "original_kind": "句子"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_6f347b04efac92cf",
+      "en": "apartment",
+      "zh": "公寓",
+      "scene": "租房",
+      "kind": "单词",
+      "notes": "租房重点词",
+      "practice_dates": [
+        "2026-10-18"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 82,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 82,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        },
+        {
+          "source_id": "chat-2026-10-18",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_49e5f14efd0fc389",
+      "en": "monthly rent",
+      "zh": "月租",
+      "scene": "租房",
+      "kind": "短语",
+      "notes": "租房重点词",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 83,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 83,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_abe2c417d1ddae1e",
+      "en": "utilities",
+      "zh": "水电等杂费",
+      "scene": "租房",
+      "kind": "单词",
+      "notes": "重点词；曾反复练习发音",
+      "practice_dates": [
+        "2026-10-18"
+      ],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 84,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 84,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        },
+        {
+          "source_id": "chat-2026-10-18",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_7f0f70e643bcb02d",
+      "en": "included",
+      "zh": "包含在内",
+      "scene": "租房",
+      "kind": "单词",
+      "notes": "与 utilities 搭配",
+      "practice_dates": [
+        "2026-10-18"
+      ],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 85,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 85,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        },
+        {
+          "source_id": "chat-2026-10-18",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_60c033df878fce65",
+      "en": "furnished",
+      "zh": "带家具的",
+      "scene": "租房",
+      "kind": "单词",
+      "notes": "租房重点词",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 86,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 86,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_094cc176f5f18334",
+      "en": "viewing",
+      "zh": "看房；参观",
+      "scene": "租房",
+      "kind": "单词",
+      "notes": "曾反复拆读",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 87,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 87,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_c3b9fb78a452ce2f",
+      "en": "deposit",
+      "zh": "押金",
+      "scene": "租房",
+      "kind": "单词",
+      "notes": "租房重点词",
+      "practice_dates": [],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 88,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 88,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_b544a7686d118668",
+      "en": "lease",
+      "zh": "租约；租期",
+      "scene": "租房",
+      "kind": "单词",
+      "notes": "租房重点词",
+      "practice_dates": [],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 89,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 89,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_9b16b44d0e0a5cac",
+      "en": "documents",
+      "zh": "材料；文件",
+      "scene": "租房",
+      "kind": "单词",
+      "notes": "复数形式曾强调",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 90,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 90,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_21f18e205ae33d1e",
+      "en": "application fee",
+      "zh": "申请费",
+      "scene": "租房",
+      "kind": "短语",
+      "notes": "租房重点词",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 91,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 91,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_1fe289205936c3fd",
+      "en": "application",
+      "zh": "申请；申请表",
+      "scene": "租房",
+      "kind": "单词",
+      "notes": "租房重点词",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 92,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 92,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_9883b5c104304dad",
+      "en": "move-in date",
+      "zh": "入住日期",
+      "scene": "租房",
+      "kind": "短语",
+      "notes": "曾纠正 moving date",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 93,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 93,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_03a72698a3d348f6",
+      "en": "Here you go.",
+      "zh": "给您；给你。",
+      "scene": "证件",
+      "kind": "短语",
+      "notes": "递东西时常用",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 94,
+          "original_scene": "词汇",
+          "original_kind": "短语",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 94,
+          "original_scene": "词汇",
+          "original_kind": "短语"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_e984cac918a1a738",
+      "en": "on foot",
+      "zh": "步行",
+      "scene": "问路",
+      "kind": "短语",
+      "notes": "问路重点短语",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 95,
+          "original_scene": "词汇",
+          "original_kind": "短语",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 95,
+          "original_scene": "词汇",
+          "original_kind": "短语"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_20f65c28671b4093",
+      "en": "check",
+      "zh": "检查；核实",
+      "scene": "证件",
+      "kind": "单词",
+      "notes": "证件场景",
+      "practice_dates": [],
+      "source_claimed_dates": [],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 96,
+          "original_scene": "词汇",
+          "original_kind": "单词",
+          "original_date": ""
+        },
+        {
+          "source_id": "csv-v1",
+          "record_id": 96,
+          "original_scene": "词汇",
+          "original_kind": "单词"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_58bd024df5b31540",
+      "en": "Can I get a coffee to go, please?",
+      "zh": "请给我一杯外带咖啡，好吗？",
+      "scene": "咖啡店",
+      "kind": "句子",
+      "notes": "Can 后面用动词原形 get，不用 got；to go 表示外带。",
+      "practice_dates": [
+        "2026-10-15"
+      ],
+      "source_claimed_dates": [
+        "2026-10-15"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 97,
+          "original_scene": "咖啡店",
+          "original_kind": "句子",
+          "original_date": "2026-10-15"
+        },
+        {
+          "source_id": "chat-2026-10-15",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_80d33d6dc0d19f84",
+      "en": "to go",
+      "zh": "外带；打包带走",
+      "scene": "咖啡店",
+      "kind": "短语",
+      "notes": "点单时放在饮品或食物后面。",
+      "practice_dates": [
+        "2026-10-15"
+      ],
+      "source_claimed_dates": [
+        "2026-10-15"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 98,
+          "original_scene": "咖啡店",
+          "original_kind": "短语",
+          "original_date": "2026-10-15"
+        },
+        {
+          "source_id": "chat-2026-10-15",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_37290d74ac4d186e",
+      "en": "coffee",
+      "zh": "咖啡",
+      "scene": "咖啡店",
+      "kind": "单词",
+      "notes": "a coffee 在点单时可表示一杯咖啡；从已练句提取。",
+      "practice_dates": [],
+      "source_claimed_dates": [
+        "2026-10-15"
+      ],
+      "evidence": "derived_from_practiced_sentence",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 99,
+          "original_scene": "咖啡店",
+          "original_kind": "单词",
+          "original_date": "2026-10-15"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_54d51bc34c78ab71",
+      "en": "Hi, I'm calling about the apartment you listed online. Is it still available?",
+      "zh": "你好，我打电话想咨询你在网上发布的那套公寓。现在还可以租吗？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "listed online：在网上发布的；still available：仍可租。",
+      "practice_dates": [],
+      "source_claimed_dates": [
+        "2026-10-18"
+      ],
+      "evidence": "prior_assistant_summary",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 100,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-18"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_d58784dad6583b5a",
+      "en": "I'm looking for a one-bedroom starting next month.",
+      "zh": "我想租一套一居室，从下个月开始入住。",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "注意 a one-bedroom；这里省略了 apartment。starting next month 更清楚自然；from next month 并非一概错误。",
+      "practice_dates": [
+        "2026-10-18"
+      ],
+      "source_claimed_dates": [
+        "2026-10-18"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 101,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-18"
+        },
+        {
+          "source_id": "chat-2026-10-18",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_bbd2a22074f1c369",
+      "en": "Could you tell me the monthly rent and whether utilities are included?",
+      "zh": "能告诉我月租是多少，以及是否包含水电等杂费吗？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "whether 后面用陈述语序：utilities are included。这里是 are，没有冠词 a。",
+      "practice_dates": [
+        "2026-10-18"
+      ],
+      "source_claimed_dates": [
+        "2026-10-18"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 102,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-18"
+        },
+        {
+          "source_id": "chat-2026-10-18",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_0d6482ebdf1c8a84",
+      "en": "one-bedroom",
+      "zh": "一居室；有一间卧室的",
+      "scene": "租房",
+      "kind": "单词",
+      "notes": "a one-bedroom 可指一套一居室；从已练句提取。",
+      "practice_dates": [
+        "2026-10-18"
+      ],
+      "source_claimed_dates": [
+        "2026-10-18"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 103,
+          "original_scene": "租房",
+          "original_kind": "短语",
+          "original_date": "2026-10-18"
+        },
+        {
+          "source_id": "chat-2026-10-18",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_a825d9f561125e15",
+      "en": "starting next month",
+      "zh": "从下个月开始",
+      "scene": "租房",
+      "kind": "短语",
+      "notes": "用于说明开始时间；从已练句提取。",
+      "practice_dates": [
+        "2026-10-18"
+      ],
+      "source_claimed_dates": [
+        "2026-10-18"
+      ],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 104,
+          "original_scene": "租房",
+          "original_kind": "短语",
+          "original_date": "2026-10-18"
+        },
+        {
+          "source_id": "chat-2026-10-18",
+          "note": "本次历史检索返回的用户练习摘要；非逐字完整对话"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_3509fd899235fb8b",
+      "en": "whether",
+      "zh": "是否",
+      "scene": "租房",
+      "kind": "单词",
+      "notes": "whether utilities are included＝水电等杂费是否包含在内；从已练句提取。",
+      "practice_dates": [],
+      "source_claimed_dates": [
+        "2026-10-18"
+      ],
+      "evidence": "derived_from_practiced_sentence",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 105,
+          "original_scene": "租房",
+          "original_kind": "单词",
+          "original_date": "2026-10-18"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_e7cf5a594eacb79c",
+      "en": "The apartment seems nice. Could you tell me more about it?",
+      "zh": "这套公寓看起来不错。你能再详细介绍一下吗？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "合并练习两句；more about it 是自然表达。",
+      "practice_dates": [],
+      "source_claimed_dates": [
+        "2026-10-12"
+      ],
+      "evidence": "historical_file",
+      "sources": [
+        {
+          "source_id": "html-1018",
+          "record_id": 106,
+          "original_scene": "租房",
+          "original_kind": "句子",
+          "original_date": "2026-10-12"
+        },
+        {
+          "source_id": "rental-original",
+          "note": "六组租房卡片中的整句、分句或提示变体"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_f2c7fa402ca6a4d1",
+      "en": "Excuse me, how much is it?",
+      "zh": "请问它多少钱？",
+      "scene": "购物",
+      "kind": "句子",
+      "notes": "历史练习中的自然变体；保留与完整目标句的区别。",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "检索片段或本会话提供的历史摘录；标点与大小写已整理"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_37490e1f6edb9a5f",
+      "en": "I'm calling about the apartment you listed.",
+      "zh": "我打电话想咨询你发布的公寓。",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "历史练习中的自然变体；保留与完整目标句的区别。",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "检索片段或本会话提供的历史摘录；标点与大小写已整理"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_6350bb3aebe2a279",
+      "en": "I'm calling about the apartment you listed. Is it still available?",
+      "zh": "我打电话想咨询你发布的公寓。现在还可以租吗？",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "历史练习中的自然变体；保留与完整目标句的区别。",
+      "practice_dates": [
+        "2026-10-08"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "chat-2026-10-08",
+          "note": "检索片段或本会话提供的历史摘录；标点与大小写已整理"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_157664c7258134d0",
+      "en": "Could you show me your ID, please?",
+      "zh": "能出示您的身份证件吗？",
+      "scene": "证件",
+      "kind": "句子",
+      "notes": "历史练习中的自然变体；保留与完整目标句的区别。",
+      "practice_dates": [
+        "2026-10-12"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "chat-2026-10-12",
+          "note": "检索片段或本会话提供的历史摘录；标点与大小写已整理"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_5525035ab051f892",
+      "en": "Hi, can I get a cup of coffee?",
+      "zh": "你好，我可以要一杯咖啡吗？",
+      "scene": "咖啡店",
+      "kind": "句子",
+      "notes": "历史练习中的自然变体；保留与完整目标句的区别。",
+      "practice_dates": [
+        "2026-10-15"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "chat-2026-10-15",
+          "note": "检索片段或本会话提供的历史摘录；标点与大小写已整理"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_0b1346b9b86f8636",
+      "en": "I'm looking for a one-bedroom from next month.",
+      "zh": "我想从下个月开始租一套一居室。",
+      "scene": "租房",
+      "kind": "句子",
+      "notes": "历史练习中的自然变体；保留与完整目标句的区别。",
+      "practice_dates": [
+        "2026-10-18"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation_excerpt",
+      "sources": [
+        {
+          "source_id": "chat-2026-10-18",
+          "note": "检索片段或本会话提供的历史摘录；标点与大小写已整理"
+        }
+      ],
+      "created_at": "2026-10-19T07:32:52+08:00",
+      "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    }
+  ],
+  "events": [
+    {
+      "type": "initial_import",
+      "at": "2026-10-19T07:32:52+08:00",
+      "detail": "合并97条CSV、107条HTML及6条历史口语变体，保留来源。"
+    }
+  ]
+}
