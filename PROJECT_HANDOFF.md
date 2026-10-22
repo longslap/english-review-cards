@@ -42,3 +42,10 @@ https://github.com/longslap/english-review-cards
 - Cloudflare Pages 官方文档确认支持连接私人 GitHub 仓库，自动随提交部署；然而默认部署 URL 可公开访问，单纯保持 GitHub 私人仓库并不保证发布后的 JSON 私密。需要额外配置 Cloudflare Access，并核对生产域名与预览域名的保护状态。
 - 现有 index.html 会从相对路径 ./English_Learning_Database.json 请求主库，若直接公开静态网站，JSON 也可通过浏览器访问；不要仅隐藏导航链接来当成访问控制。
 - **状态**：已经完成方案核查；尚未实际发布，未改变仓库可见性，等待用户确认网页公开范围后再部署。
+
+## 2026-10-22 实测成果与跨对话写库工具
+- 用户在 Windows 与 iPhone 上验证复习卡运行正常；公开 GitHub Pages 地址：https://longslap.github.io/english-review-cards/ 。
+- 临时将主库从 113 条增加到 114 条，用户确认 iPhone 和 Windows 均能获取更新；移除测试句后又确认恢复为 113 条。当前主库 revision=3（后续以 GitHub 最新文件为准）。
+- 新增 `tools/merge_learning.py`：可按 JSON 清单合并人工确认的新词句；默认 dry-run，不改主库；使用 `--apply` 才真正写入；规范化英文去重，保留原条目，生成 ID 和修订记录。
+- 这不等于 ChatGPT 自动跨对话监听：必须在新学习对话中明确提出“将本次新学的句子加入英语复习卡”，从该对话提取可见内容；如历史信息不完整先核实。然后用已连接的 GitHub 工具读取最新数据库、校验并写回；绝不可基于旧版本覆盖新数据。网页部署由 GitHub Actions 随提交触发。
+- 此前“未发布”“尚未通过手机测试”的旧状态已被本节实测结果取代。
