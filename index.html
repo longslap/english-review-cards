@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>英语复习卡</title>
+<style>
+:root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;color:#080808;background:#fcfcfc}*{box-sizing:border-box}body{margin:0;padding:11px 28px 20px}.review-shell{max-width:1100px;margin:auto}button,select{font:inherit;font-size:16px;background:#fcfcfc;color:inherit;border:1px solid #dedede;border-radius:13px;min-height:48px;padding:11px 16px}button{cursor:pointer}button:disabled{opacity:.36;cursor:default}button:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #6394ff;outline-offset:3px}.review-controls{display:grid;grid-template-columns:48% 1fr auto;align-items:center;gap:0;margin-bottom:15px}select{max-width:100%;min-width:138px;width:138px;justify-self:start}.direction{justify-self:start}.review-counter{font-size:13px;font-variant-numeric:tabular-nums;color:#52606d;min-width:55px;text-align:right}.progress-track{height:6px;border-radius:4px;background:#e2e2e2;overflow:hidden;margin-bottom:14px}.progress-fill{height:100%;width:0%;background:#f5cc3e;transition:width .15s}.review-main{position:relative;height:444px;border:1px solid #ddd;border-radius:19px;background:#f9f9f9;overflow:hidden}.card-top{position:absolute;top:18px;left:18px;right:18px;display:flex;justify-content:space-between;gap:10px;font-size:14px;color:#657585}.review-tag{min-width:0}.card-hint{white-space:nowrap}.review-stage{position:absolute;top:56px;bottom:137px;left:28px;right:28px;display:grid;grid-template-rows:1fr 87px 34px;gap:5px}.review-prompt,.review-answer{display:flex;justify-content:center;align-items:center;text-align:center;line-height:1.35;overflow:auto;overflow-wrap:anywhere;min-height:0}.review-prompt{font-size:38px;font-weight:700}.review-answer{font-size:27px;color:#263c55}.review-note{font-size:13px;line-height:1.45;color:#677786;text-align:center;overflow:auto;min-height:0}.review-stage[data-shown="false"]{grid-template-rows:1fr}.review-stage[data-shown="false"] .review-answer,.review-stage[data-shown="false"] .review-note{display:none}.review-stage[data-shown="false"] .review-prompt{align-self:center;height:146px}.card-shuffle,.card-speak,.card-reveal{position:absolute;min-height:54px}.card-shuffle{bottom:18px;left:18px}.card-speak{bottom:82px;right:18px;display:flex;align-items:center;gap:8px}.card-speak svg{width:20px;height:20px;flex:none}.card-reveal{bottom:18px;right:18px;border-color:#5286ff;background:#edf3fd}.review-nav{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}.review-nav button{min-height:54px}.review-nav button:last-child{border-color:#5286ff;background:#edf3fd}.review-total{font-size:14px;color:#6e7f91;margin-top:14px}.review-status{font-size:13px;line-height:1.45;color:#657585;margin-top:8px;min-height:0}.review-status:empty{display:none}details{font-size:13px;color:#5d6c7b;line-height:1.6;border-top:1px solid #e9e9e9;margin-top:16px;padding-top:10px}summary{cursor:pointer;min-height:30px}details label{display:flex;flex-direction:column;gap:6px;margin-top:10px}details input{max-width:100%}details select{align-self:flex-start}details button{font-size:14px;min-height:44px}.data-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.review-source{margin-top:12px}.version{margin-top:8px;font-size:12px}
+@media(max-width:600px){body{padding:12px}.review-controls{grid-template-columns:1fr 1fr auto;gap:8px}select{min-width:0;width:100%;padding:10px 9px;font-size:14px}.direction{width:100%}.review-counter{min-width:45px;font-size:12px}.review-main{height:460px}.card-top{left:15px;right:15px;font-size:12px}.review-stage{left:18px;right:18px;top:52px;bottom:140px;grid-template-rows:1fr 104px 40px}.review-stage[data-shown="false"] .review-prompt{height:170px}.card-shuffle{left:14px}.card-speak,.card-reveal{right:14px}button{font-size:15px;padding:10px 13px}.review-nav{gap:10px}.review-total{font-size:13px}}
+</style></head><body><div id="english-review-1018"><main class="review-shell" aria-label="英语复习卡片">
+<div class="review-controls"><select data-role="scope" aria-label="复习范围"><option value="all">全部内容</option><option value="recent">有日期的练习</option></select><select class="direction" data-role="direction" aria-label="练习方向"><option value="zh">中译英</option><option value="en">英译中</option></select><span class="review-counter" data-role="count">0 / 0</span></div>
+<div class="progress-track" aria-hidden="true"><div class="progress-fill" data-role="progress"></div></div>
+<section class="review-main" aria-label="当前卡片"><div class="card-top"><span class="review-tag" data-role="tag"></span><span class="card-hint">先想一想，再看答案</span></div>
+<div class="review-stage" data-role="stage" data-shown="false" aria-live="polite"><div class="review-prompt" data-role="prompt"></div><div class="review-answer" data-role="answer"></div><div class="review-note" data-role="note"></div></div>
+<button class="card-shuffle" data-role="shuffle" type="button">⤨ 随机乱序</button>
+<button class="card-speak" data-role="speak" type="button" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/></svg>英文朗读</button>
+<button class="card-reveal" data-role="reveal" type="button">显示答案</button></section>
+<nav class="review-nav" aria-label="卡片翻页"><button data-role="prev" type="button">‹ 上一句</button><button data-role="next" type="button">下一句 ›</button></nav>
+<div class="review-total" data-role="total">请选择资料库</div><div class="review-status" data-role="status" role="status"></div>
+<details><summary>资料库与朗读设置</summary><p>首次打开本地文件时，选择 data/deck.json 或 English_Learning_Database.json。载入不会覆盖原文件。</p>
+<label>选择资料库 JSON<input type="file" data-role="load" accept=".json,application/json"></label><div class="data-actions"><button data-role="reload" type="button">重新载入同目录资料库</button><button data-role="export" type="button" disabled>导出当前资料库</button></div>
+<label>英文语音<select data-role="voice"><option value="">自动选择美式英语</option></select></label><p>默认稍慢语速（0.88）。切换卡片会停止朗读。</p><div class="review-source" data-role="source"></div><div class="version" data-role="version">资料未载入</div></details>
+</main></div><script>(()=>{
+'use strict';
+const root=document.getElementById('english-review-1018');
+const $=name=>root.querySelector('[data-role="'+name+'"]');
+let deck=null,cards=[],list=[],index=0,shown=false,voices=[],speaking=null,speechToken=0,loadToken=0;
+const labels={historical_file:'历史资料收录 · 未逐条核实练习日期',conversation_excerpt:'对话片段可核实',derived_from_practiced_sentence:'从练习句提取',prior_assistant_summary:'历史助手整理'};
+const normalized=s=>s.normalize('NFKC').replace(/[‘’]/g,"'").replace(/[–—]/g,'-').toLowerCase().replace(/[^\p{L}\p{N}_\s'-]/gu,'').trim().replace(/\s+/g,' ');
+function validate(d){
+ if(!d||d.schema_version!==1||d.deck_id!=='mark-english-master'||!Array.isArray(d.entries)||!Array.isArray(d.sources)||!Array.isArray(d.events))throw Error('不是受支持的英语资料库（schema_version 1）。');
+ const ids=new Set(),keys=new Set(),sourceIds=new Set(d.sources.map(s=>s.id));
+ for(const c of d.entries){
+  if(!c||['id','en','zh','scene','kind','notes','evidence','status'].some(k=>typeof c[k]!=='string')||!c.id||!c.en.trim()||!c.zh.trim()||!['句子','单词','短语'].includes(c.kind)||!['active','archived'].includes(c.status)||!Array.isArray(c.practice_dates)||!Array.isArray(c.sources))throw Error('词句字段缺失或格式不正确。');
+  if(c.practice_dates.some(x=>!/^\d{4}-\d{2}-\d{2}$/.test(x))||c.sources.some(s=>!sourceIds.has(s.source_id)))throw Error('日期或来源引用不正确。');
+  const key=normalized(c.en);if(ids.has(c.id)||keys.has(key))throw Error('资料库含重复 ID 或英文，请先合并去重。');ids.add(c.id);keys.add(key);
+ }
+ return d;
+}
+function stop(){speechToken++;if('speechSynthesis' in window)window.speechSynthesis.cancel();speaking=null;}
+function fit(el,max,min){let n=max;el.style.fontSize=n+'px';while(n>min&&(el.scrollHeight>el.clientHeight+1||el.scrollWidth>el.clientWidth+1)){el.style.fontSize=--n+'px'}}
+function resize(){fit($('prompt'),root.clientWidth<450?32:38,18);fit($('answer'),root.clientWidth<450?27:31,17)}
+function render(){
+ const c=list[index],empty=!c,zh=$('direction').value==='zh';
+ for(const role of ['next','reveal','speak','shuffle'])$(role).disabled=empty;
+ $('prev').disabled=empty||index===0;
+ if(empty){$('tag').textContent='';$('prompt').textContent=deck?'这个范围暂无词句':'请选择资料库';$('answer').textContent='';$('note').textContent='';$('source').textContent=deck?'可切换到「全部词句」':'展开下方「资料库与朗读设置」，选择 deck.json';$('count').textContent='0 / 0';$('progress').style.width='0%';$('stage').setAttribute('data-shown','false');return;}
+ const date=c.practice_dates.slice().sort().at(-1)||'';
+ $('tag').textContent=c.scene;$('tag').title=c.kind+(date?' · '+date:'');$('stage').setAttribute('data-shown',String(shown));
+ $('prompt').textContent=zh?c.zh:c.en;$('answer').textContent=zh?c.en:c.zh;
+ $('answer').style.visibility=shown?'visible':'hidden';$('note').textContent=c.notes;$('note').style.visibility=shown?'visible':'hidden';
+ $('source').textContent=labels[c.evidence]||'新增资料';$('count').textContent=(index+1)+' / '+list.length;$('progress').style.width=((index+1)/list.length*100)+'%';
+ $('next').textContent=index===list.length-1?'从头复习 ↻':'下一句 ›';$('reveal').textContent=shown?'隐藏答案':'显示答案';$('reveal').setAttribute('aria-expanded',String(shown));requestAnimationFrame(resize);
+}
+function select(){const scope=$('scope').value;list=cards.filter(c=>scope==='all'||scope==='recent'&&c.practice_dates.length||scope==='scene:'+c.scene);if(scope==='recent')list.sort((a,b)=>(b.practice_dates.slice().sort().at(-1)||'').localeCompare(a.practice_dates.slice().sort().at(-1)||''));index=0;shown=false;stop();$('status').textContent='';render();}
+function install(d){
+ validate(d);stop();deck=d;cards=d.entries.filter(c=>c.status==='active');
+ const current=$('scope').value;while($('scope').options.length>2)$('scope').remove(2);
+ [...new Set(cards.map(c=>c.scene))].forEach(scene=>{const o=document.createElement('option');o.value='scene:'+scene;o.textContent=scene;$('scope').appendChild(o)});
+ $('scope').value=Array.from($('scope').options).some(o=>o.value===current)?current:'all';
+ $('total').textContent='共 '+cards.length+' 张卡片 · '+new Set(cards.map(c=>c.scene)).size+' 个分类';$('version').textContent='资料库 v'+d.revision;$('export').disabled=false;select();
+}
+async function reload(){const token=++loadToken;if(location.protocol==='file:'){$('status').textContent='本地文件模式：请在下方选择 data/deck.json。';return;}
+ try{const r=await fetch('./English_Learning_Database.json',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();if(token===loadToken){install(d);$('status').textContent='资料库已载入。';}}
+ catch(e){if(token===loadToken)$('status').textContent='自动载入失败。可在下方手动选择 deck.json。'+e.message;}}
+function refreshVoices(){if(!('speechSynthesis' in window))return;voices=window.speechSynthesis.getVoices().filter(v=>/^en([-_]|$)/i.test(v.lang));const current=$('voice').value;while($('voice').options.length>1)$('voice').remove(1);voices.forEach(v=>{const o=document.createElement('option');o.value=v.voiceURI;o.textContent=v.name+' ('+v.lang+')';$('voice').appendChild(o)});$('voice').value=voices.some(v=>v.voiceURI===current)?current:'';}
+function speak(){
+ if(!list[index])return;if(!('speechSynthesis' in window)||!('SpeechSynthesisUtterance' in window)){$('status').textContent='此预览无法朗读，请用 Safari、Edge 或 Chrome 打开网页。';return;}
+ stop();const token=speechToken;refreshVoices();const utterance=new SpeechSynthesisUtterance(list[index].en);speaking=utterance;
+ const us=voices.filter(v=>/^en[-_]US$/i.test(v.lang));utterance.voice=voices.find(v=>v.voiceURI===$('voice').value)||us.find(v=>/natural|enhanced|premium/i.test(v.name))||us[0]||voices[0]||null;
+ utterance.lang=utterance.voice?.lang||'en-US';utterance.rate=.88;utterance.pitch=1;
+ $('status').textContent='正在启动英文朗读…';utterance.onstart=()=>{if(token===speechToken)$('status').textContent='正在朗读英文…'};
+ utterance.onend=()=>{if(token===speechToken){$('status').textContent='';speaking=null}};
+ utterance.onerror=e=>{if(token===speechToken&&!['interrupted','canceled'].includes(e.error)){$('status').textContent='朗读未能启动，请检查音量及系统英文语音，或换一个英文音色。';speaking=null}};
+ window.speechSynthesis.resume();window.speechSynthesis.speak(utterance);
+}
+function move(delta){if(!list.length)return;index=(index+delta+list.length)%list.length;shown=false;stop();$('status').textContent='';render();}
+function exportDeck(){if(!deck)return;const url=URL.createObjectURL(new Blob([JSON.stringify(deck,null,2)+'\n'],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='deck-v'+deck.revision+'.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function bind(){
+ $('scope').onchange=select;$('direction').onchange=()=>{shown=false;stop();render()};$('reveal').onclick=()=>{shown=!shown;render()};$('prev').onclick=()=>move(-1);$('next').onclick=()=>move(1);$('speak').onclick=speak;
+ $('shuffle').onclick=()=>{stop();for(let i=list.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[list[i],list[j]]=[list[j],list[i]]}index=0;shown=false;render();$('status').textContent='已打乱当前范围。'};
+ $('reload').onclick=reload;$('export').onclick=exportDeck;
+ $('load').onchange=async e=>{const file=e.target.files[0];if(!file)return;const token=++loadToken;try{const d=JSON.parse(await file.text());if(token===loadToken){install(d);$('status').textContent='已载入 '+file.name+'，原文件未改动。';}}catch(err){$('status').textContent='导入失败，当前资料保持不变：'+err.message;}finally{e.target.value=''}};
+ if('speechSynthesis' in window){refreshVoices();window.speechSynthesis.addEventListener('voiceschanged',refreshVoices)}
+ if(typeof ResizeObserver!=='undefined')new ResizeObserver(resize).observe(root);window.addEventListener('resize',resize);window.addEventListener('pagehide',stop);
+ render();reload();
+}
+bind();
+})();
+</script></body></html>
