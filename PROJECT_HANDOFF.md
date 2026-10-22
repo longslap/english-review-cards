@@ -36,3 +36,9 @@
 
 ## 仓库地址
 https://github.com/longslap/english-review-cards
+
+## 2026-10-22 网页发布方式核查
+- GitHub 官方文档：GitHub Free 账户的 Pages 需要公开仓库；付费方案支持从私人仓库发布，但 Pages 网页通常仍是公开的（部分企业计划可配置私密访问）。因此不应直接把主数据库通过公开 Pages 暴露。
+- Cloudflare Pages 官方文档确认支持连接私人 GitHub 仓库，自动随提交部署；然而默认部署 URL 可公开访问，单纯保持 GitHub 私人仓库并不保证发布后的 JSON 私密。需要额外配置 Cloudflare Access，并核对生产域名与预览域名的保护状态。
+- 现有 index.html 会从相对路径 ./English_Learning_Database.json 请求主库，若直接公开静态网站，JSON 也可通过浏览器访问；不要仅隐藏导航链接来当成访问控制。
+- **状态**：已经完成方案核查；尚未实际发布，未改变仓库可见性，等待用户确认网页公开范围后再部署。
