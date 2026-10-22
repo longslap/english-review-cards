@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "deck_id": "mark-english-master",
-  "revision": 4,
-  "updated_at": "2026-10-22T09:49:00+08:00",
+  "revision": 5,
+  "updated_at": "2026-10-22T01:54:57.930Z",
   "timezone": "Asia/Shanghai",
   "coverage": {
     "requested_start": "2026-10-08",
@@ -56,6 +56,13 @@
       "local_date": "2026-10-18",
       "title": "继续口语学习",
       "limitation": "只获得检索摘要/片段，不是完整会话导出"
+    },
+    {
+      "id": "chat-2026-10-22-current",
+      "type": "conversation",
+      "local_date": "2026-10-22",
+      "title": "跨对话写入测试",
+      "limitation": "用户明确提供的测试句子，来源于同一英语学习项目中的新对话"
     }
   ],
   "entries": [
@@ -3723,6 +3730,11 @@
       "type": "entry_added",
       "at": "2026-10-22T09:49:00+08:00",
       "detail": "Added one deduplicated user-provided sentence in 日常沟通."
+    },
+    {
+      "type": "source_reference_fix",
+      "at": "2026-10-22T01:54:57.930Z",
+      "detail": "Registered missing source for cross-conversation test item; repaired deck validation."
     }
   ]
 }
