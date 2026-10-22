@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "deck_id": "mark-english-master",
-  "revision": 8,
-  "updated_at": "2026-10-22T02:09:27.878Z",
+  "revision": 9,
+  "updated_at": "2026-10-22T10:55:00+08:00",
   "timezone": "Asia/Shanghai",
   "coverage": {
     "requested_start": "2026-10-08",
@@ -63,6 +63,12 @@
       "local_date": "2026-10-22",
       "title": "跨对话写入测试",
       "limitation": "用户明确提供的测试句子，来源于同一英语学习项目中的新对话"
+    },
+    {
+      "id": "chat-2026-10-22-oral",
+      "type": "conversation",
+      "local_date": "2026-10-22",
+      "title": "日常英语口语练习"
     }
   ],
   "entries": [
@@ -3685,6 +3691,75 @@
       ],
       "created_at": "2026-10-19T07:32:52+08:00",
       "updated_at": "2026-10-19T07:32:52+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_b9ba97de1022",
+      "en": "Excuse me, how do I get to the subway station?",
+      "zh": "打扰一下，请问去地铁站怎么走？",
+      "scene": "问路",
+      "kind": "句子",
+      "notes": "2026-10-22 口语跟读练习",
+      "practice_dates": [
+        "2026-10-22"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation",
+      "sources": [
+        {
+          "source_id": "chat-2026-10-22-oral",
+          "note": "本次英语口语练习 SRT 逐字稿"
+        }
+      ],
+      "created_at": "2026-10-22T10:55:00+08:00",
+      "updated_at": "2026-10-22T10:55:00+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_33f4d69e1022",
+      "en": "Could you say that again?",
+      "zh": "你能再说一遍吗？",
+      "scene": "日常沟通",
+      "kind": "句子",
+      "notes": "2026-10-22 口语跟读练习",
+      "practice_dates": [
+        "2026-10-22"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation",
+      "sources": [
+        {
+          "source_id": "chat-2026-10-22-oral",
+          "note": "本次英语口语练习 SRT 逐字稿"
+        }
+      ],
+      "created_at": "2026-10-22T10:55:00+08:00",
+      "updated_at": "2026-10-22T10:55:00+08:00",
+      "revision": 1,
+      "status": "active"
+    },
+    {
+      "id": "en_61db03a21022",
+      "en": "What do you recommend?",
+      "zh": "你推荐什么？",
+      "scene": "餐厅",
+      "kind": "句子",
+      "notes": "2026-10-22 口语跟读练习",
+      "practice_dates": [
+        "2026-10-22"
+      ],
+      "source_claimed_dates": [],
+      "evidence": "conversation",
+      "sources": [
+        {
+          "source_id": "chat-2026-10-22-oral",
+          "note": "本次英语口语练习 SRT 逐字稿"
+        }
+      ],
+      "created_at": "2026-10-22T10:55:00+08:00",
+      "updated_at": "2026-10-22T10:55:00+08:00",
       "revision": 1,
       "status": "active"
     }
