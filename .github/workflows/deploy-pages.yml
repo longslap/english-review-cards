@@ -49,3 +49,5 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
+# Re-trigger publication after enabling GitHub Pages.
